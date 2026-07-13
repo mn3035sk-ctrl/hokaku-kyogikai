@@ -70,6 +70,11 @@
   .footer-link { color: oklch(0.85 0.02 140); }
   .footer-link:hover { color: oklch(0.97 0.005 120); }
   .footer-link:focus-visible { outline: 2px solid oklch(0.78 0.12 130); outline-offset: 3px; }
+
+  .hero-media { margin: -40px 0 -56px 0; }
+  @media (max-width: 820px) {
+    .hero-media { margin: 24px 0 0 0; }
+  }
 </style>
 </head>
 <body>
@@ -102,7 +107,7 @@
         <span style="font-size:13px;color:oklch(0.72 0.03 140)">見学だけのご連絡も歓迎します</span>
       </div>
     </div>
-    <div style="flex:1 1 380px;position:relative;min-height:340px;margin:-40px 0 -56px 0;overflow:hidden">
+    <div class="hero-media" style="flex:1 1 380px;position:relative;min-height:340px;overflow:hidden">
       <img src="images/hero-illust.jpg" alt="山林で双眼鏡を構え、鹿を見つめる従事者のイラスト" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 44%">
       <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(90deg,oklch(0.27 0.05 165) 0%,transparent 30%)"></div>
     </div>
